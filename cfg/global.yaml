@@ -1,5 +1,6 @@
 global:
       rdiff: /usr/bin/rdiff-backup
+      remote-schema:    "  --remote-schema 'ssh  -C %s /opt/bin/rdiff-backup --server' "
       purge:
             do: true
             #period: '2016-08-28T20:45:00'
